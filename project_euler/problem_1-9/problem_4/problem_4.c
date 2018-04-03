@@ -62,11 +62,11 @@ int largest_palindrome(int upperLimit)
 	return largestPalindrome;
 }
 
-int nat_power(int n, int d)
+int nat_power(int n, int degree)
 {
 	int power = n;
 	
-	while (d-- > 1)
+	while (degree-- > 1)
 		power *= n;
 	
 	return power;
